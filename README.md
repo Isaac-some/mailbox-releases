@@ -9,6 +9,8 @@
 
 本版优化写信入口、待验证账号选择与授权更新、发件任务三步流程和大账号库加载速度；保留 CSV 导入、域名连接配置、收件同步、定时发送和附件功能。已通过用户验收。
 
+两个安装包已在 Windows 环境完成匿名下载与 SHA-256 校验，公开 Windows ZIP 已实际启动并从空库拉取真实平台账号。[最终验证记录](https://github.com/Isaac-some/mailbox/actions/runs/39544610527)。
+
 VPN 请使用覆盖 GitHub 的节点或全局模式，确保 github.com 与 release-assets.githubusercontent.com 可访问。仅开启 VPN 开关不等于这些域名已走代理；下载无公司内网限制。
 
 本仓库仅提供安装包、校验信息及使用说明，不提供租户授权源文件。公开二进制中的内置授权仍可被分析和提取；编译不是保密机制。macOS 为本地签名，尚未经过 Apple 公证。
